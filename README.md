@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-# Cruise-Line-Management-System
+# Cruise-Line-Management-System <br>
 In this project, we have designed a web-based application on Cruise Line Management.
 
 :scroll:&nbsp;&nbsp;<b>Abstract:</b><br>
@@ -12,6 +11,6 @@ A cruise line has Rooms and Restaurants. A Passenger makes a Transaction for boo
 :speedboat:&nbsp;&nbsp;<b>Modules:</b><br>
 Registration (Cruise destination, departure, port of departure, date of departure, trip duration)<br>
 :key:&nbsp;&nbsp;Log In (Choosing onboard suites, Restaurants, cancellation policy, terms and conditions)<br>
-<i class="fa fa-search" style="color: black;"></i>Explore (Restaurant booking, onboard and off-shore activities, and banquet hall)<br>
+Explore (Restaurant booking, onboard and off-shore activities, and banquet hall)<br>
 Manage (Already booked, check in, onboard packages, and travel protection)<br>
 Help, Contact Us, About <br>
