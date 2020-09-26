@@ -12,6 +12,5 @@ A cruise line has Rooms and Restaurants. A Passenger makes a Transaction for boo
 :computer:&nbsp;&nbsp;Registration (Cruise destination, departure, port of departure, date of departure, trip duration)<br>
 :lock:&nbsp;&nbsp;Log In (Choosing onboard suites, Restaurants, cancellation policy, terms and conditions)<br>
 :earth_americas:&nbsp;&nbsp;Explore (Restaurant booking, onboard and off-shore activities, and banquet hall)<br>
-:memo:
-:pencil:&nbsp;&nbsp;Manage (Already booked, check in, onboard packages, and travel protection)<br>
+:memo:&nbsp;&nbsp;Manage (Already booked, check in, onboard packages, and travel protection)<br>
 :speech_balloon:&nbsp;&nbsp;Help, Contact Us, About <br>
