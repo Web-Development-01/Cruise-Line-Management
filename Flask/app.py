@@ -222,7 +222,7 @@ def display():
     dest_obj=Destination(request.form['dest_pin'],request.form['dod'],request.form['doa'],request.form['city'])
     db.session.add(dest_obj)
     db.session.commit()
-    passenger_obj=Passenger(request.form['firstname'],request.form['lastname'],request.form['adults'],request.form['children'],request.form['address'],request.form['dob'],dest_obj.DID)
+    passenger_obj=Passenger(request.form['firstname'],request.form['lastname'],request.form['children'],request.form['adults'],request.form['address'],request.form['dob'],dest_obj.DID)
     db.session.add(passenger_obj)
     db.session.commit()
     p_d_obj=PassengerDestination(passenger_obj.PID,dest_obj.DID)
@@ -246,7 +246,6 @@ def display():
         db.session.commit()
 
     return render_template("Greet.html", obj = passenger_obj)
-    '''return "Thank you Mr."+passenger_obj.fname+" "+passenger_obj.lname+" for trusting our company.Your Passenger ID is: "+str(passenger_obj.PID)+".Please save it for future reference."'''
 
 @app.route('/Restaurant', methods = ['POST'])
 def restaurant_booking():
